@@ -1,0 +1,413 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+:root{
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* ====================================================== */
+
+/* setLocation-section starts  */
+.setLocation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(50, 50, 50); */
+    color: rgb(0, 0, 0);
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.setLocation .location-icon{
+    margin-right: 17px;
+    font-size: 5px;
+}
+.setLocation p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #202124;
+    font-family: var(--font-family-sans-serif);
+    height: 32px;
+    padding-top: 5px;
+}
+.setLocation .setLocation-btn{
+    font-size: 12px;
+    text-align: center;
+    font-family: var(--font-family-sans-serif);
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 7px 15px;
+    margin-left: 23px;
+    color: #fff;
+    border-radius: 45px;
+    border: none;
+    outline: none;
+    background-color: #202124;
+}
+
+/* setLocation-section ends  */
+
+/* ====================================================== */
+
+/* header starts  */
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+header nav{
+    /* background-color: aquamarine; */
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+header nav .leftSide{
+    /* background-color: rgb(7, 55, 84); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 23px;
+    padding-top: 29px;
+}
+header nav .rightSide{
+    /* background-color: rgb(96, 40, 40); */
+    padding-bottom: 23px;
+    padding-top: 29px;
+}
+header nav .leftSideLinks{
+    display: flex;
+}
+.leftSideLinks li{
+    margin-left: 48px;
+}
+.leftSideLinks li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #202124;
+    font-family: var(--font-family-sans-serif);
+}
+header nav .rightSideLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSideLinks li{
+    margin-right: 22px;
+}
+.rightSideLinks li a{
+    font-size: 14px;
+    font-family: var(--font-family-sans-serif);
+    color: #202124;
+}
+.vl{
+    border-left: 1px solid rgba(0,0,0,.1);
+    height: 30px;
+}
+/* header ends  */
+
+/* ====================================================== */
+
+/* startOrder section starts    */
+.startOrder{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #202124;
+    color: white;
+    padding: 11em 0 1em 0;
+}
+.startOrder h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: .9px;
+}
+.startOrder .startOrder-btn{
+    margin: -10px 0 0 12px;
+    background-color: #e4002b;
+    color: #fff;
+    padding: 11px 45px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 1.4rem;
+    font-size: 0.9rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    border: none;
+}
+/* startOrder section ends  */
+
+/* ====================================================== */
+
+/* hero section starts  */
+.hero{
+    height: 57vh;
+}
+.hero .heroImage1{
+    width: 100%;
+    height: 57vh;
+}
+/* hero section ends  */
+
+/* ====================================================== */
+
+/* small welcome section strats  */
+.smallWelcome{
+    background: #f8f7f5;
+    padding: 44px 0;
+}
+.smallWelcome .redIcon{
+    width: 40px;
+    height: 20px;
+    background: repeating-linear-gradient(90deg,#e4002b,#e4002b 8px,#fff 0,#fff 16px);
+    margin-left: 199px;
+    position: absolute;
+    top: 629px;
+}
+.smallWelcome h1{
+    font-family: var(--font-family-sans-serif);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #1f2023;
+    margin-top: 12px;
+    margin-left: 199px;
+}
+/* small welcome section ends  */
+
+/* ====================================================== */
+
+/* categories section starts  */
+.categories-section{
+    padding-top: 55px;
+}
+.categories-section .categories-header{
+    width: 1017px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: red; */
+}
+.categories-header .categories-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: 800;
+}
+.categories-section .hl{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    width: 680px;
+    height: 30px;
+    /* margin-left: 120px; */
+}
+.categories{
+    width: 1135px;
+    padding: 70px;
+    padding-bottom: 100px;
+    /* margin: 130px 15px 0 150px; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 66px;
+    grid-row-gap: 22px;
+}
+.categories .card{
+    width: 120%;
+    height: 240px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #f8f7f5;
+}
+.card .cardInner{
+    /* background-color: red;  */
+    padding: 23px 16px;
+    text-align: center;
+}
+.cardInner h4{
+    font-family:var(--font-family-sans-serif);
+    font-weight: 900;
+    color: #202124;
+    font-size: 15px;
+}
+.cardInner .viewAllMenu{
+    font-size: 13px;
+    /* background-color: red; */
+}
+
+/* categories section ends  */
+
+/* ====================================================== */
+
+
+/* offerAndDeals-section starts  */
+.offersAndDeals-container{
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+}
+.offersAndDeals-container .offerAndDeals-headerIcon{
+    width: 85%;
+    margin: 0 auto;
+}
+.offersAndDeals-container .offerAndDeals-header{
+    width: 85%;
+    margin: 0 auto;
+    padding: 12px 0;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offerAndDeals-header h2{
+    font-size: 39px;
+    font-weight: 700;
+    font-family: var(--font-family-sans-serif);
+    color: #fff;
+}
+.offersAndDeals-innerContainer {
+    /* background-color: rgb(178, 178, 178); */
+    width: 90%;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    /* display: flex; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.offersAndDeals-innerContainer::-webkit-scrollbar{
+    display: none;
+}
+.offersAndDeals-innerContainer .card-container{
+    /* background-color: green; */
+    margin-top: 50px;
+    display: flex;
+}
+.card-container .image-container{
+    width: 300px;
+    height: 380px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #f8f7f5;
+    margin-left: 32px;
+}
+.image-container img{
+    width: 100%;
+}
+.imageCardHeader{
+    text-align: center;
+}
+.imageCardHeader h2{
+    margin-top: 12px;
+    color: #e4002b;
+    font-family: var(--font-family-sans-serif);
+    font-weight: 900;
+    font-size: 26px;
+}
+.imageCardFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+.imageCardHeader p{
+    font-size: 14px;
+    font-family: var(--font-family-sans-serif);
+}
+.imageCardFooter .redeem-btn{
+    padding: 14px 39px;
+    border-radius: 33px;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+.redeem-btn:hover{
+    background-color: #1f2023;
+    color: white;
+}
+/* offerAndDeals-section ends  */
+
+
+/* ====================================================== */
+
+
+/* footer starts  */
+.footerContainer{
+    background-color: rgb(31, 31, 31);
+    /* margin-top: 120PX; */
+
+}
+.footerContainerInner{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 80%;
+    margin:  0 auto;
+    padding: 90px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.footerContainerInner ul{
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footerContainerInner ul li {
+    margin-top: 8px;
+}
+.footerLogo img{
+    cursor: pointer;
+    width: 50px;
+    height: 60px;
+}
+.kfcFood , .support 
+, .legal , .kfcIndia{
+    font-size: 12px;
+}
+.kfcFood  li a, .support  li a
+, .legal  li a, .kfcIndia li a{
+    color: #fff;
+}
+.footerlastContainer{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    color: white;
+    /* background-color: aqua; */
+    padding: 0 0 33px 0;
+}
+.copyright{
+    /* background-color: red; */
+    flex: 3;
+    text-align: center;   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footericons{
+    /* background-color: gainsboro; */
+    flex: 2;
+    text-align: end;
+}
+.footericons ul{
+    list-style: none;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footericons ul li{
+    margin: 0 9px;
+}
+/* footer ends  */
